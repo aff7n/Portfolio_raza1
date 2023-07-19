@@ -1,0 +1,127 @@
+$black: #000;
+$black_2: #303030;
+$white: #fff;
+$orange: #ff9933;
+$off-white: #faf9f6;
+$font-family_1: "Noto sans", sans-serif;
+$font-family_2: "Raleway", sans-serif;
+$font-family_3: "Open sans", sans-serif;
+$font-family_4: "Inter", sans-serif;
+$font-family_5: "Space Mono", sans-serif;
+$font-family_6: "Source Code Pro", sans-serif;
+$background-grey: #eeeeee;
+
+.overlay {
+  background: rgba(0, 0, 0, 0.623);
+  height: 100vh;
+}
+
+.radio-btns {
+  margin-top: 100px;
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(4, 100px);
+}
+
+.radio-btns:hover .radio-btns__btn:not(:hover) {
+  filter: grayscale(100%);
+  opacity: 0.75;
+}
+
+.radio-btns:hover .radio-btns__btn:not(:hover)::after {
+  background-color: rgba(#000, 0.5);
+}
+
+@media (min-width: 30rem) {
+  .radio-btns {
+    grid-template-columns: repeat(4, 250px);
+  }
+}
+
+.radio-btns__btn {
+  position: relative;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.radio-btns__btn::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 90%;
+  background-color: rgba(#000, 0);
+  border-radius: 12px;
+  transition: 0.3s;
+}
+
+.radio-btns__btn img {
+  display: block;
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 12px;
+  //   max-width: 100%;
+}
+
+.siblings {
+  padding: 1em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.hoverable {
+  visibility: hidden;
+  display: flex;
+  justify-content: center;
+  //   position: absolute;
+  //   //   top: 45%;
+  //   left: 40%;
+  color: #eeeeee;
+  font-size: 26px;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-top: 8px;
+  font-family: $font-family_6;
+}
+
+figure:hover > .hoverable {
+  visibility: visible;
+}
+
+.hero {
+  width: 100%;
+  height: 100vh;
+  //   background-color: $off-white;
+  position: absolute;
+  top: 0;
+  background: url(../img/bumbly.jpeg) no-repeat;
+  background-size: cover;
+  h1 {
+    font-family: $font-family_2;
+    font-size: 70px;
+    font-weight: 700;
+    color: $black;
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+  p {
+    font-size: 22px;
+    font-weight: 400;
+    color: $black_2;
+    line-height: 30px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+  }
+}
+.intro-text {
+  padding-top: 220px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

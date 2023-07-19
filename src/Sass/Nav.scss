@@ -1,0 +1,120 @@
+$black: #000;
+$black_2: #303030;
+$white: #fff;
+$orange: #ff9933;
+$off-white: #faf9f6;
+$font-family_1: "Noto sans", sans-serif;
+$font-family_2: "Raleway", sans-serif;
+$font-family_3: "Open sans", sans-serif;
+$font-family_4: "Inter", sans-serif;
+$font-family_5: "Space Mono", sans-serif;
+$font-family_6: "Source Code Pro", sans-serif;
+$background-grey: #eeeeee;
+
+@media (min-width: 1200px) {
+  .container-xl,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container {
+    max-width: 1220px;
+  }
+}
+
+.navbar {
+  //   margin-top: 15px;
+  padding-top: 15px;
+}
+
+.name {
+  color: $black;
+  text-shadow: none;
+  font-family: $font-family_2;
+  font-weight: 100;
+  font-size: 25px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  margin: 0;
+  text-decoration: none;
+}
+
+.right-list {
+  justify-content: flex-end;
+}
+
+.nav-item {
+  padding-right: 5px;
+}
+
+.nav-link {
+  color: $black;
+  font-family: $font-family_2;
+  font-size: 18px;
+  font-weight: 500;
+  text-transform: uppercase;
+  position: relative;
+}
+
+.hover::after {
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: #fff;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+
+.hover:hover::after {
+  width: 100%;
+  left: 0;
+}
+
+// Old Navbar
+// .nav-cont {
+//   display: flex;
+//   align-items: center;
+//   justify-content: center;
+// }
+// .navbar-brand {
+//   display: flex;
+//   flex-direction: column;
+// }
+// .navbar-name {
+//   color: $black;
+//   text-shadow: none;
+//   font-family: $font-family_1;
+//   font-size: 30px;
+//   text-transform: uppercase;
+//   letter-spacing: 3px;
+//   margin: 0;
+//   text-decoration: none;
+// }
+// .navbar-dsgn {
+//   letter-spacing: 5.7px;
+//   font-size: 12px;
+//   font-family: $font-family_2;
+//   text-transform: uppercase;
+//   text-align: center;
+// }
+// .nav-link {
+//   color: $black;
+//   text-shadow: none;
+//   font-family: $font-family_1;
+//   font-size: 15px;
+//   text-transform: uppercase;
+// }
+// #navbar1 {
+//   display: flex;
+//   justify-content: flex-end;
+// }
+// .nav-item {
+//   padding: 5px 10px;
+// }
+// .logo {
+//   width: 50px;
+//   margin-right: 20px;
+// }

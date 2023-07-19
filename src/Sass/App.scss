@@ -1,0 +1,22 @@
+@import "./Nav.scss";
+@import "./Hero.scss";
+@import "./Art.scss";
+@import "./Reels.scss";
+// @import "./About.scss";
+
+*,
+html {
+  // background-color: #ffacac;
+}
+
+body {
+  position: relative;
+}
+
+.navbar .nav-link {
+  color: $white !important;
+}
+
+.name {
+  color: $white !important;
+}
