@@ -10,6 +10,10 @@ $font-family_4: "Inter", sans-serif;
 $font-family_5: "Space Mono", sans-serif;
 $font-family_6: "Source Code Pro", sans-serif;
 $background-grey: #eeeeee;
+$small: 480px;
+$medium: 768px;
+$large: 992px;
+$xlarge: 1200px;
 
 .overlay {
   background: rgba(0, 0, 0, 0.623);
@@ -21,6 +25,22 @@ $background-grey: #eeeeee;
   display: grid;
   gap: 10px;
   grid-template-columns: repeat(4, 100px);
+
+  @media screen and (min-width: $xsmall) {
+    grid-template-columns: repeat(2, 200px);
+  }
+
+  @media screen and (min-width: $small) {
+    grid-template-columns: repeat(2, 200px);
+  }
+
+  @media screen and (min-width: $medium) {
+    grid-template-columns: repeat(2, 200px);
+  }
+
+  @media screen and (min-width: $large) {
+    grid-template-columns: repeat(4, 200px);
+  }
 }
 
 .radio-btns:hover .radio-btns__btn:not(:hover) {
@@ -32,7 +52,7 @@ $background-grey: #eeeeee;
   background-color: rgba(#000, 0.5);
 }
 
-@media (min-width: 30rem) {
+@media (min-width: $xlarge) {
   .radio-btns {
     grid-template-columns: repeat(4, 250px);
   }
@@ -63,6 +83,13 @@ $background-grey: #eeeeee;
   object-fit: cover;
   border-radius: 12px;
   //   max-width: 100%;
+  @media screen and (max-width: $xlarge) {
+    height: 250px;
+  }
+
+  @media screen and (max-width: $large) {
+    height: 150px;
+  }
 }
 
 .siblings {
@@ -86,6 +113,10 @@ $background-grey: #eeeeee;
   font-weight: 600;
   margin-top: 8px;
   font-family: $font-family_6;
+
+  @media screen and (max-width: $large) {
+    display: none;
+  }
 }
 
 figure:hover > .hoverable {
@@ -100,6 +131,11 @@ figure:hover > .hoverable {
   top: 0;
   background: url(../img/bumbly.jpeg) no-repeat;
   background-size: cover;
+
+  @media screen and (max-width: $large) {
+    background: $black_2;
+    width: 100%;
+  }
   h1 {
     font-family: $font-family_2;
     font-size: 70px;

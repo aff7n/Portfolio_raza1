@@ -5,11 +5,11 @@ const Nav = (props) => {
   return (
     // Navbar new
 
-    <div className="container">
-      <nav
-        className="navbar navbar-expand-lg navbar-dark d-none d-lg-block"
-        style={{ zIndex: 2000 }}
-      >
+    <nav
+      className="navbar fixed-top navbar-expand-md navbar-dark d-lg-block"
+      style={{ zIndex: 2000 }}
+    >
+      <div className="container">
         <div className="container-fluid">
           {/* <div className="navbar-brand nav-name"> */}
           <Link to={"/"} className="navbar-brand nav-name">
@@ -20,71 +20,29 @@ const Nav = (props) => {
             </h2>
           </Link>
           {/* </div> */}
-          <button
+          {/* <button
             className="navbar-toggler"
             type="button"
-            data-mdb-toggle="collapse"
-            data-mdb-target="#navbarExample01"
-            aria-controls="navbarExample01"
+            data-toggle="collapse"
+            data-target="#navbarCollapse"
+            aria-controls="navbarCollapse"
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
             <i className="fas fa-bars" />
-          </button>
-          <div
-            className="collapse navbar-collapse right-list"
-            id="navbarExample01"
-          >
-            {/* <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-              <li className="nav-item active">
-                <a className="nav-link" aria-current="page" href="#">
-                  Work
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="#">
-                  About
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="#">
-                  Contact
-                </a>
-              </li>
-            </ul> */}
+          </button> */}
+          <div className="right-list" id="navbarCollapse">
             <ul className="navbar-nav list-inline">
               <li className="nav-item active">
                 <a className="nav-link hover" aria-current="page" href="/">
                   Portfolio
                 </a>
               </li>
-              {/* <li className="nav-item">
-                <Link to={"/About"} className="nav-link hover">
-                <a className="nav-link hover" href="#">
-                  About
-                </a>
-                </Link>
-              </li> */}
               <li className="nav-item">
                 <a className="nav-link hover" href="#">
                   Contact
                 </a>
               </li>
-              {/* <li className="nav-item">
-                  <a className="nav-link" href="#">
-                    <i className="fab fa-youtube" />
-                  </a>
-                </li>
-                <li className="nav-item">
-                  <a className="nav-link" href="#">
-                    <i className="fab fa-facebook-f" />
-                  </a>
-                </li>
-                <li className="nav-item">
-                  <a className="nav-link" href="#">
-                    <i className="fab fa-twitter" />
-                  </a>
-                </li> */}
               <li className="nav-item">
                 <a
                   className="nav-link"
@@ -98,8 +56,8 @@ const Nav = (props) => {
             </ul>
           </div>
         </div>
-      </nav>
-    </div>
+      </div>
+    </nav>
 
     // Navbar old
     // <nav class="navbar navbar-expand-sm fixed-top bg-light shadow p-3 mb-5">
