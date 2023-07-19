@@ -15,6 +15,10 @@ $medium: 768px;
 $large: 992px;
 $xlarge: 1200px;
 
+#header {
+  background: $black;
+}
+
 .overlay {
   background: rgba(0, 0, 0, 0.623);
   height: 100vh;

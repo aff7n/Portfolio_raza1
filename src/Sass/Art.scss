@@ -18,6 +18,10 @@
     margin: 10px;
     overflow: hidden;
 
+    @media screen and (min-width: $xsmall) {
+      margin: 5px;
+    }
+
     &:hover {
       .gallery__image {
         filter: grayscale(0);
@@ -73,6 +77,7 @@
 
 .bg-img {
   position: absolute;
+  top: 0;
   background-repeat: no-repeat;
   background-size: cover;
   // z-index: -1;

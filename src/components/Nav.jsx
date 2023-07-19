@@ -6,7 +6,7 @@ const Nav = (props) => {
     // Navbar new
 
     <nav
-      className="navbar fixed-top navbar-expand-md navbar-dark d-lg-block"
+      className="navbar navbar-expand-md navbar-dark d-lg-block"
       style={{ zIndex: 2000 }}
     >
       <div className="container">

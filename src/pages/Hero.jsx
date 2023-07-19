@@ -8,50 +8,36 @@ const Hero = (props) => {
     <>
       <Nav />
       <header id="header">
-        <div className="hero">
-          <div className="overlay">
-            <div className="siblings">
-              <div class="radio-btns" role="radiogroup">
-                <Link to={"/Flat"} style={{ textDecoration: "none" }}>
-                  <figure
-                    class="radio-btns__btn"
-                    role="radio"
-                    aria-checked="false"
-                    tabindex="-1"
-                    aria-label="Select image one"
-                  >
-                    <img src={require("../img/pain.jpeg")} alt="art" />
-                    <figcaption className="hoverable">2D Art</figcaption>
-                  </figure>
-                </Link>
+        <img className="bg-img" src={require("../img/bumbly.jpeg")} alt="" />
 
+        <div className="overlay">
+          <div className="siblings">
+            <div class="radio-btns" role="radiogroup">
+              <Link to={"/Flat"} style={{ textDecoration: "none" }}>
                 <figure
                   class="radio-btns__btn"
                   role="radio"
                   aria-checked="false"
                   tabindex="-1"
-                  aria-label="Select image two"
+                  aria-label="Select image one"
                 >
-                  <img src={require("../img/Grizi.jpeg")} alt="films" />
-                  <figcaption className="hoverable">3D Art</figcaption>
+                  <img src={require("../img/pain.jpeg")} alt="art" />
+                  <figcaption className="hoverable">2D Art</figcaption>
                 </figure>
+              </Link>
 
-                <Link to={"/Reels"} style={{ textDecoration: "none" }}>
-                  <figure
-                    class="radio-btns__btn"
-                    role="radio"
-                    aria-checked="false"
-                    tabindex="-1"
-                    aria-label="Select image three"
-                  >
-                    <img
-                      src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/148866/cdn-36_img-3.jpg"
-                      alt="demo reels"
-                    />
-                    <figcaption className="hoverable">Demo reels</figcaption>
-                  </figure>
-                </Link>
+              <figure
+                class="radio-btns__btn"
+                role="radio"
+                aria-checked="false"
+                tabindex="-1"
+                aria-label="Select image two"
+              >
+                <img src={require("../img/Grizi.jpeg")} alt="films" />
+                <figcaption className="hoverable">3D Art</figcaption>
+              </figure>
 
+              <Link to={"/Reels"} style={{ textDecoration: "none" }}>
                 <figure
                   class="radio-btns__btn"
                   role="radio"
@@ -63,11 +49,26 @@ const Hero = (props) => {
                     src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/148866/cdn-36_img-3.jpg"
                     alt="demo reels"
                   />
-                  <figcaption className="hoverable">Films</figcaption>
+                  <figcaption className="hoverable">Demo reels</figcaption>
                 </figure>
-              </div>
+              </Link>
+
+              <figure
+                class="radio-btns__btn"
+                role="radio"
+                aria-checked="false"
+                tabindex="-1"
+                aria-label="Select image three"
+              >
+                <img
+                  src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/148866/cdn-36_img-3.jpg"
+                  alt="demo reels"
+                />
+                <figcaption className="hoverable">Films</figcaption>
+              </figure>
             </div>
-            {/* <div className="">
+          </div>
+          {/* <div className="">
             <div className="intro-text">
               <h1>
                 {props.data ? props.data.title : "Loading"}
@@ -78,7 +79,6 @@ const Hero = (props) => {
               <div class="button btn button-2">Explore</div>
             </div>
           </div> */}
-          </div>
         </div>
       </header>
       {/* <Footer /> */}
