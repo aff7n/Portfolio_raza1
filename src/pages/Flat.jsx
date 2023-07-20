@@ -1,11 +1,13 @@
 import React from "react";
 import Nav from "../components/Nav";
+import Landing from "../components/Landing";
 
 const Flat = (props) => {
   return (
     <div className="collection">
       {/* <img className="bg-img" src={require("../img/bumbly.jpeg")} alt="" /> */}
       <Nav />
+      <Landing />
       <div className="gallery">
         <div className="gallery__column">
           <a href="#" target="_blank" className="gallery__link">

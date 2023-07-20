@@ -16,6 +16,10 @@ $medium: 768px;
 $large: 992px;
 $xlarge: 1200px;
 
+body {
+  background: $black;
+}
+
 #header {
   background: $black;
 }
@@ -132,10 +136,10 @@ figure:hover > .hoverable {
   width: 100%;
   height: 100vh;
   //   background-color: $off-white;
-  position: absolute;
-  top: 0;
-  background: url(../img/bumbly.jpeg) no-repeat;
-  background-size: cover;
+  // position: absolute;
+  // top: 0;
+  // background: url(../img/bumbly.jpeg) no-repeat;
+  // background-size: cover;
 
   @media screen and (max-width: $large) {
     background: $black_2;

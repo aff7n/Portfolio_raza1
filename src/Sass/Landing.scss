@@ -1,0 +1,56 @@
+.jumbotron {
+  color: white;
+  background-image: url("../img/bumbly.jpeg");
+  // background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.btn-custom {
+  margin-top: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+  transition-property: transform;
+  padding: 15px 25px;
+  font-size: 15px;
+  font-weight: bold;
+  &:hover {
+    transform: translateY(-5px);
+  }
+}
+
+.raza-logo {
+  // border-radius: 50%;
+  // height: 20%;
+  width: 20%;
+
+  @media screen and (max-width: $xsmall) {
+    width: 50%;
+  }
+
+  @media screen and (max-width: $small) {
+    width: 40%;
+  }
+
+  @media screen and (min-width: $medium) {
+    width: 25%;
+  }
+}
+
+.display-1 {
+  @media screen and (max-width: $xsmall) {
+    font-size: 25px;
+    margin-top: 10px;
+  }
+
+  @media screen and (max-width: $small) {
+    font-size: 30px;
+    margin-top: 10px;
+  }
+
+  @media screen and (min-width: $medium) {
+    font-size: 40px;
+    margin-top: 10px;
+  }
+}

@@ -34,7 +34,11 @@ const Nav = (props) => {
           <div className="right-list" id="navbarCollapse">
             <ul className="navbar-nav list-inline">
               <li className="nav-item active">
-                <a className="nav-link hover" aria-current="page" href="/">
+                <a
+                  className="nav-link hover"
+                  aria-current="page"
+                  href="/#header"
+                >
                   Portfolio
                 </a>
               </li>

@@ -1,5 +1,6 @@
 import React from "react";
 import Nav from "../components/Nav";
+import Landing from "../components/Landing";
 // import Footer from "../components/Footer";
 import { Link } from "react-router-dom";
 
@@ -7,6 +8,7 @@ const Hero = (props) => {
   return (
     <>
       <Nav />
+      <Landing />
       <header id="header">
         <div className="hero">
           <div className="overlay">
@@ -45,7 +47,7 @@ const Hero = (props) => {
                     aria-label="Select image three"
                   >
                     <img
-                      src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/148866/cdn-36_img-3.jpg"
+                      src={require("../img/Showreel_2.png")}
                       alt="demo reels"
                     />
                     <figcaption className="hoverable">Demo reels</figcaption>

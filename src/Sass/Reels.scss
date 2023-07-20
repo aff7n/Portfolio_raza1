@@ -4,50 +4,6 @@ $medium: 768px;
 $large: 992px;
 $xlarge: 1200px;
 
-.jumbotron {
-  color: white;
-  background-image: url("../img/bumbly.jpeg");
-  // background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 100vh;
-}
-
-.raza-logo {
-  // border-radius: 50%;
-  // height: 20%;
-  width: 20%;
-
-  @media screen and (max-width: $xsmall) {
-    width: 50%;
-  }
-
-  @media screen and (max-width: $small) {
-    width: 40%;
-  }
-
-  @media screen and (max-width: $medium) {
-    width: 25%;
-  }
-}
-
-.display-1 {
-  @media screen and (max-width: $xsmall) {
-    font-size: 25px;
-    margin-top: 10px;
-  }
-
-  @media screen and (max-width: $small) {
-    font-size: 30px;
-    margin-top: 10px;
-  }
-
-  @media screen and (max-width: $medium) {
-    font-size: 40px;
-    margin-top: 10px;
-  }
-}
-
 .reels {
   display: flex;
   justify-content: center;
