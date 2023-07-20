@@ -9,297 +9,345 @@ const Flat = (props) => {
       <Nav />
       <div className="gallery">
         <div className="gallery__column">
-          <a href="#" target="_blank" className="gallery__link">
+          <a
+            href={require("../img/geezer.jpeg")}
+            target="_blank"
+            className="gallery__link"
+          >
             <figure className="gallery__thumb">
               <img
                 src={require("../img/geezer.jpeg")}
-                alt="Portrait by Jessica Felicio"
+                alt=" "
                 className="gallery__image"
               />
               {/* <figcaption className="gallery__caption">
-                Portrait by Jessica Felicio
+                 
               </figcaption> */}
             </figure>
           </a>
-          <a href="#" target="_blank" className="gallery__link">
+          <a
+            href={require("../img/Grizi.jpeg")}
+            target="_blank"
+            className="gallery__link"
+          >
             <figure className="gallery__thumb">
               <img
                 src={require("../img/Grizi.jpeg")}
-                alt="Portrait by Oladimeji Odunsi"
+                alt=" "
                 className="gallery__image"
               />
               {/* <figcaption className="gallery__caption">
-                Portrait by Oladimeji Odunsi
+                 
               </figcaption> */}
             </figure>
           </a>
-          <a href="#" target="_blank" className="gallery__link">
+          <a
+            href={require("../img/pain.jpeg")}
+            target="_blank"
+            className="gallery__link"
+          >
             <figure className="gallery__thumb">
               <img
                 src={require("../img/pain.jpeg")}
-                alt="Portrait by Alex Perez"
+                alt=" "
                 className="gallery__image"
               />
               {/* <figcaption className="gallery__caption">
-                Portrait by Alex Perez
+                 
               </figcaption> */}
             </figure>
           </a>
-          <a href="#" target="_blank" className="gallery__link">
+          <a
+            href={require("../img/Tiggi.jpg")}
+            target="_blank"
+            className="gallery__link"
+          >
             <figure className="gallery__thumb">
               <img
                 src={require("../img/Tiggi.jpg")}
-                alt="Portrait by Alex Perez"
+                alt=" "
                 className="gallery__image"
               />
               {/* <figcaption className="gallery__caption">
-                Portrait by Alex Perez
+                 
               </figcaption> */}
             </figure>
           </a>
-          <a href="#" target="_blank" className="gallery__link">
+          <a
+            href={require("../img/babba.jpeg")}
+            target="_blank"
+            className="gallery__link"
+          >
             <figure className="gallery__thumb">
               <img
                 src={require("../img/babba.jpeg")}
-                alt="Portrait by Alex Perez"
+                alt=" "
                 className="gallery__image"
               />
               {/* <figcaption className="gallery__caption">
-                Portrait by Alex Perez
+                 
               </figcaption> */}
             </figure>
           </a>
         </div>
         <div className="gallery__column">
           <a
-            href="https://unsplash.com/@hikiapp"
+            href={require("../img/doggo.jpeg")}
             target="_blank"
             className="gallery__link"
           >
             <figure className="gallery__thumb">
               <img
                 src={require("../img/doggo.jpeg")}
-                alt="Portrait by Hikiapp"
+                alt=" "
                 className="gallery__image"
               />
               {/* <figcaption className="gallery__caption">
-                Portrait by Hikiapp
+                 
               </figcaption> */}
             </figure>
           </a>
           <a
-            href="https://unsplash.com/@von_co"
+            href={require("../img/logan.jpeg")}
             target="_blank"
             className="gallery__link"
           >
             <figure className="gallery__thumb">
               <img
                 src={require("../img/logan.jpeg")}
-                alt="Portrait by Ivana Cajina"
+                alt=" "
                 className="gallery__image"
               />
               {/* <figcaption className="gallery__caption">
-                Portrait by Ivana Cajina
+                 
               </figcaption> */}
             </figure>
           </a>
           <a
-            href="https://unsplash.com/@j_erhunse"
+            href={require("../img/meow.png")}
             target="_blank"
             className="gallery__link"
           >
             <figure className="gallery__thumb">
               <img
                 src={require("../img/meow.png")}
-                alt="Portrait by Jeffery Erhunse"
+                alt=" "
                 className="gallery__image"
               />
               {/* <figcaption className="gallery__caption">
-                Portrait by Jeffery Erhunse
+                 
               </figcaption> */}
             </figure>
           </a>
-          <a href="#" target="_blank" className="gallery__link">
+          <a
+            href={require("../img/shak.jpeg")}
+            target="_blank"
+            className="gallery__link"
+          >
             <figure className="gallery__thumb">
               <img
                 src={require("../img/shak.jpeg")}
-                alt="Portrait by Alex Perez"
+                alt=" "
                 className="gallery__image"
               />
               {/* <figcaption className="gallery__caption">
-                Portrait by Alex Perez
+                 
               </figcaption> */}
             </figure>
           </a>
-          <a href="#" target="_blank" className="gallery__link">
+          <a
+            href={require("../img/han.jpeg")}
+            target="_blank"
+            className="gallery__link"
+          >
             <figure className="gallery__thumb">
               <img
                 src={require("../img/han.jpeg")}
-                alt="Portrait by Alex Perez"
+                alt=" "
                 className="gallery__image"
               />
               {/* <figcaption className="gallery__caption">
-                Portrait by Alex Perez
+                 
               </figcaption> */}
             </figure>
           </a>
         </div>
         <div className="gallery__column">
           <a
-            href="https://unsplash.com/@marilezhava"
+            href={require("../img/PRIME.png")}
             target="_blank"
             className="gallery__link"
           >
             <figure className="gallery__thumb">
               <img
                 src={require("../img/PRIME.png")}
-                alt="Portrait by Mari Lezhava"
+                alt=" "
                 className="gallery__image"
               />
               {/* <figcaption className="gallery__caption">
-                Portrait by Mari Lezhava
+                 
               </figcaption> */}
             </figure>
           </a>
           <a
-            href="https://unsplash.com/@ethanhaddox"
+            href={require("../img/general.png")}
             target="_blank"
             className="gallery__link"
           >
             <figure className="gallery__thumb">
               <img
                 src={require("../img/general.png")}
-                alt="Portrait by Ethan Haddox"
+                alt=" "
                 className="gallery__image"
               />
               {/* <figcaption className="gallery__caption">
-                Portrait by Ethan Haddox
+                 
               </figcaption> */}
             </figure>
           </a>
           <a
-            href="https://unsplash.com/@mr_geshani"
+            href={require("../img/haha.png")}
             target="_blank"
             className="gallery__link"
           >
             <figure className="gallery__thumb">
               <img
                 src={require("../img/haha.png")}
-                alt="Portrait by Amir Geshani"
+                alt=" "
                 className="gallery__image"
               />
               {/* <figcaption className="gallery__caption">
-                Portrait by Amir Geshani
+                 
               </figcaption> */}
             </figure>
           </a>
-          <a href="#" target="_blank" className="gallery__link">
+          <a
+            href={require("../img/capitan.jpeg")}
+            target="_blank"
+            className="gallery__link"
+          >
             <figure className="gallery__thumb">
               <img
                 src={require("../img/capitan.jpeg")}
-                alt="Portrait by Alex Perez"
+                alt=" "
                 className="gallery__image"
               />
               {/* <figcaption className="gallery__caption">
-                Portrait by Alex Perez
+                 
               </figcaption> */}
             </figure>
           </a>
-          <a href="#" target="_blank" className="gallery__link">
+          <a
+            href={require("../img/raju.jpeg")}
+            target="_blank"
+            className="gallery__link"
+          >
             <figure className="gallery__thumb">
               <img
                 src={require("../img/raju.jpeg")}
-                alt="Portrait by Alex Perez"
+                alt=" "
                 className="gallery__image"
               />
               {/* <figcaption className="gallery__caption">
-                Portrait by Alex Perez
+                 
               </figcaption> */}
             </figure>
           </a>
         </div>
         <div className="gallery__column">
           <a
-            href="https://unsplash.com/@nixcreative"
+            href={require("../img/cheers.png")}
             target="_blank"
             className="gallery__link"
           >
             <figure className="gallery__thumb">
               <img
                 src={require("../img/cheers.png")}
-                alt="Portrait by Tyler Nix"
+                alt=" "
                 className="gallery__image"
               />
               {/* <figcaption className="gallery__caption">
-                Portrait by Tyler Nix
+                 
               </figcaption> */}
             </figure>
           </a>
           <a
-            href="https://unsplash.com/@majestical_jasmin"
+            href={require("../img/captainYoda.png")}
             target="_blank"
             className="gallery__link"
           >
             <figure className="gallery__thumb">
               <img
                 src={require("../img/captainYoda.png")}
-                alt="Portrait by Jasmin Chew"
+                alt=" "
                 className="gallery__image"
               />
               {/* <figcaption className="gallery__caption">
-                Portrait by Jasmin Chew
+                 
               </figcaption> */}
             </figure>
           </a>
           <a
-            href="https://unsplash.com/@dimadallacqua"
+            href={require("../img/D.png")}
             target="_blank"
             className="gallery__link"
           >
             <figure className="gallery__thumb">
               <img
                 src={require("../img/D.png")}
-                alt="Portrait by Dima DallAcqua"
+                alt=" "
                 className="gallery__image"
               />
               {/* <figcaption className="gallery__caption">
-                Portrait by Dima DallAcqua
+                 
               </figcaption> */}
             </figure>
           </a>
-          <a href="#" target="_blank" className="gallery__link">
+          <a
+            href={require("../img/shockwave.png")}
+            target="_blank"
+            className="gallery__link"
+          >
             <figure className="gallery__thumb">
               <img
                 src={require("../img/shockwave.png")}
-                alt="Portrait by Alex Perez"
+                alt=" "
                 className="gallery__image"
               />
               {/* <figcaption className="gallery__caption">
-                Portrait by Alex Perez
+                 
               </figcaption> */}
             </figure>
           </a>
-          <a href="#" target="_blank" className="gallery__link">
+          <a
+            href={require("../img/babyShark.jpeg")}
+            target="_blank"
+            className="gallery__link"
+          >
             <figure className="gallery__thumb">
               <img
                 src={require("../img/babyShark.jpeg")}
-                alt="Portrait by Alex Perez"
+                alt=" "
                 className="gallery__image"
               />
               {/* <figcaption className="gallery__caption">
-                Portrait by Alex Perez
+                 
               </figcaption> */}
             </figure>
           </a>
-          <a href="#" target="_blank" className="gallery__link">
+          <a
+            href={require("../img/Sup.jpeg")}
+            target="_blank"
+            className="gallery__link"
+          >
             <figure className="gallery__thumb">
               <img
                 src={require("../img/Sup.jpeg")}
-                alt="Portrait by Alex Perez"
+                alt=" "
                 className="gallery__image"
               />
               {/* <figcaption className="gallery__caption">
-                Portrait by Alex Perez
+                 
               </figcaption> */}
             </figure>
           </a>
