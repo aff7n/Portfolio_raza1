@@ -7,7 +7,6 @@ const Reels = (props) => {
     <div className="collection">
       {/* <img className="bg-img" src={require("../img/bumbly.jpeg")} alt="" /> */}
       <Nav />
-      <Landing />
       {/* <div class="jumbotron jumbotron-fluid bg-image">
         <div
           class="dsgn d-flex flex-column justify-content-center align-items-center mask"

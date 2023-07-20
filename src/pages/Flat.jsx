@@ -7,7 +7,6 @@ const Flat = (props) => {
     <div className="collection">
       {/* <img className="bg-img" src={require("../img/bumbly.jpeg")} alt="" /> */}
       <Nav />
-      <Landing />
       <div className="gallery">
         <div className="gallery__column">
           <a href="#" target="_blank" className="gallery__link">
