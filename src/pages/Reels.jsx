@@ -4,8 +4,36 @@ import Nav from "../components/Nav";
 const Reels = (props) => {
   return (
     <div className="collection">
-      <img className="bg-img" src={require("../img/bumbly.jpeg")} alt="" />
+      {/* <img className="bg-img" src={require("../img/bumbly.jpeg")} alt="" /> */}
       <Nav />
+      <div class="jumbotron jumbotron-fluid bg-image">
+        <div
+          class="dsgn d-flex flex-column justify-content-center align-items-center mask"
+          style={{ backgroundColor: "rgba(0, 0, 0, 0.5)" }}
+        >
+          <img
+            class="img-fluid raza-logo"
+            alt="avatar2"
+            src={require("../img/raza2.png")}
+          />
+          <h1
+            class="display-1 text-uppercase fw-bold text-center"
+            style={{
+              fontFamily: "Space Mono",
+              letterSpacing: "4px",
+              zIndex: "1",
+            }}
+          >
+            3D Character
+            <br />
+            artist
+          </h1>
+          {/* <div
+            className="mask"
+            style={{ backgroundColor: "rgba(0, 0, 0, 0.5)" }}
+          /> */}
+        </div>
+      </div>
       <div className="reels">
         <div className="reels__column">
           <a href="#" target="_blank" className="reels__link">

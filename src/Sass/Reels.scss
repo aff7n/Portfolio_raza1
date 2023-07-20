@@ -1,7 +1,58 @@
+$xsmall: 320px;
+$small: 480px;
+$medium: 768px;
+$large: 992px;
+$xlarge: 1200px;
+
+.jumbotron {
+  color: white;
+  background-image: url("../img/bumbly.jpeg");
+  // background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.raza-logo {
+  // border-radius: 50%;
+  // height: 20%;
+  width: 20%;
+
+  @media screen and (max-width: $xsmall) {
+    width: 50%;
+  }
+
+  @media screen and (max-width: $small) {
+    width: 40%;
+  }
+
+  @media screen and (max-width: $medium) {
+    width: 25%;
+  }
+}
+
+.display-1 {
+  @media screen and (max-width: $xsmall) {
+    font-size: 25px;
+    margin-top: 10px;
+  }
+
+  @media screen and (max-width: $small) {
+    font-size: 30px;
+    margin-top: 10px;
+  }
+
+  @media screen and (max-width: $medium) {
+    font-size: 40px;
+    margin-top: 10px;
+  }
+}
+
 .reels {
   display: flex;
   justify-content: center;
-  margin: 0px;
+  margin-top: 20px;
+  // margin: 0px;
   padding: 2px;
   transition: 0.3s;
 
@@ -14,7 +65,7 @@
     // grid-template-columns: repeat(3, 35rem);
     display: flex;
     flex-direction: column;
-    width: 60%;
+    width: 80%;
   }
 
   &__link {
@@ -48,24 +99,25 @@
 
   &__caption {
     position: absolute;
-    bottom: -12px;
+    top: 40%;
     left: 0;
     // padding-top: 25px;
     // // padding-bottom: 15px;
     // padding-right: 15px;
     // padding-left: 15px;
-    padding: 25px 15px 15px;
+    // padding: 25px 15px 15px;
     width: 100%;
     font-family: "Raleway", sans-serif;
-    font-size: 28px;
+    font-size: 45px;
     text-align: center;
+    text-transform: uppercase;
     color: white;
     opacity: 0;
-    background: linear-gradient(
-      0deg,
-      rgba(0, 0, 0, 0.5) 0%,
-      rgba(255, 255, 255, 0) 100%
-    );
+    // background: linear-gradient(
+    //   0deg,
+    //   rgba(0, 0, 0, 0.5) 0%,
+    //   rgba(255, 255, 255, 0) 100%
+    // );
     transition: 0.3s;
   }
 }

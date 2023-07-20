@@ -4,7 +4,7 @@ import Nav from "../components/Nav";
 const Flat = (props) => {
   return (
     <div className="collection">
-      <img className="bg-img" src={require("../img/bumbly.jpeg")} alt="" />
+      {/* <img className="bg-img" src={require("../img/bumbly.jpeg")} alt="" /> */}
       <Nav />
       <div className="gallery">
         <div className="gallery__column">
