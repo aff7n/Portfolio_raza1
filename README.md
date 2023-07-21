@@ -1,5 +1,6 @@
 # Live Url
-radiant-sorbet-b67514.netlify.app
+
+https://radiant-sorbet-b67514.netlify.app
 
 # Getting Started with Create React App
 
