@@ -54,19 +54,21 @@ const Hero = (props) => {
                   </figure>
                 </Link>
 
-                <figure
-                  class="radio-btns__btn"
-                  role="radio"
-                  aria-checked="false"
-                  tabindex="-1"
-                  aria-label="Select image three"
-                >
-                  <img
-                    src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/148866/cdn-36_img-3.jpg"
-                    alt="demo reels"
-                  />
-                  <figcaption className="hoverable">Films</figcaption>
-                </figure>
+                <Link to={"/Films"} style={{ textDecoration: "none" }}>
+                  <figure
+                    class="radio-btns__btn"
+                    role="radio"
+                    aria-checked="false"
+                    tabindex="-1"
+                    aria-label="Select image three"
+                  >
+                    <img
+                      src={require("../img/RakshakPoster.jpg")}
+                      alt="Films"
+                    />
+                    <figcaption className="hoverable">Films</figcaption>
+                  </figure>
+                </Link>
               </div>
             </div>
             {/* <div className="">

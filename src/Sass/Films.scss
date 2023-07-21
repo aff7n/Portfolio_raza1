@@ -4,7 +4,7 @@ $medium: 768px;
 $large: 992px;
 $xlarge: 1200px;
 
-.reels {
+.films {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -20,9 +20,10 @@ $xlarge: 1200px;
 
   &__column {
     // display: grid;
-    // grid-template-columns: repeat(3, 35rem);
+    // grid-template-columns: repeat(2, 1fr);
     display: flex;
     flex-direction: row;
+    justify-content: center;
     width: 90%;
   }
 
@@ -35,11 +36,11 @@ $xlarge: 1200px;
     overflow: hidden;
 
     &:hover {
-      .reels__image {
+      .films__image {
         filter: grayscale(0);
       }
 
-      .reels__caption {
+      .films__caption {
         opacity: 1;
       }
     }
@@ -51,7 +52,8 @@ $xlarge: 1200px;
 
   &__image {
     display: block;
-    width: 100%;
+    // width: 50%;
+    height: 450px;
     transition: 0.3s;
 
     &:hover {
@@ -61,7 +63,7 @@ $xlarge: 1200px;
 
   &__caption {
     position: absolute;
-    top: 40%;
+    bottom: 30%;
     left: 0;
     // padding-top: 25px;
     // // padding-bottom: 15px;

@@ -1,4 +1,4 @@
-# Live Url
+# Live URL
 
 https://radiant-sorbet-b67514.netlify.app
 

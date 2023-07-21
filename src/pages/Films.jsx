@@ -2,7 +2,7 @@ import React from "react";
 import Nav from "../components/Nav";
 import Landing from "../components/Landing";
 
-const Reels = (props) => {
+const Films = (props) => {
   return (
     <div className="collection">
       {/* <img className="bg-img" src={require("../img/bumbly.jpeg")} alt="" /> */}
@@ -23,48 +23,49 @@ const Reels = (props) => {
               zIndex: "1",
             }}
           >
-            Demo Reels / Show Reels
+            Films
           </h1>
         </div>
       </div>
-      <div className="reels">
-        <div className="reels__column">
+      <div className="films">
+        <div className="films__column">
           <a
-            href="https://drive.google.com/file/d/19ZWV8bKlZ0QgZgvDcoHha4h4YUjgYcei/view?usp=drivesdk"
+            href="https://youtu.be/kem3E-d1MdY"
             target="_blank"
-            className="reels__link"
+            className="films__link"
           >
-            <figure className="reels__thumb">
+            <figure className="films__thumb">
               <img
                 src={require("../img/TheCrypt.jpg")}
                 alt=""
-                className="reels__image"
+                className="films__image"
               />
-              <figcaption className="reels__caption">The Crypt</figcaption>
+              <figcaption className="films__caption">The Crypt</figcaption>
             </figure>
           </a>
-          {/* Not for any use rn */}
-          {/* <a href="#" target="_blank" className="reels__link">
-            <figure className="reels__thumb">
+          <a
+            href="https://youtu.be/2YftR27wMVs"
+            target="_blank"
+            className="films__link"
+          >
+            <figure className="films__thumb">
               <img
-                src={require("../img/TheCrypt.jpg")}
-                alt="Portrait by Oladimeji Odunsi"
-                className="reels__image"
+                src={require("../img/RakshakPoster.jpg")}
+                alt=""
+                className="films__image"
               />
-              <figcaption className="reels__caption">
-                Portrait by Oladimeji Odunsi
-              </figcaption>
+              <figcaption className="films__caption">Rakshak</figcaption>
             </figure>
-          </a> */}
+          </a>
         </div>
-        {/* <a href="#" target="_blank" className="reels__linkOdd reels__link">
-          <figure className="reels__thumb">
+        {/* <a href="#" target="_blank" className="films__linkOdd films__link">
+          <figure className="films__thumb">
             <img
               src={require("../img/TheCrypt.jpg")}
               alt="Portrait by Alex Perez"
-              className="reels__image"
+              className="films__image"
             />
-            <figcaption className="reels__caption">
+            <figcaption className="films__caption">
               Portrait by Alex Perez
             </figcaption>
           </figure>
@@ -74,4 +75,4 @@ const Reels = (props) => {
   );
 };
 
-export default Reels;
+export default Films;
