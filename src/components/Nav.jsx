@@ -57,6 +57,16 @@ const Nav = (props) => {
                   <i className="fab fa-instagram" />
                 </a>
               </li>
+              <li className="nav-item">
+                <a
+                  className="nav-link"
+                  href="https://mohammedrazahasan6.artstation.com/"
+                  rel="nofollow"
+                  target="_blank"
+                >
+                  <i className="fab fa-artstation" />
+                </a>
+              </li>
             </ul>
           </div>
         </div>

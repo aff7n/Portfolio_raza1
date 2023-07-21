@@ -272,6 +272,22 @@ const Flat = (props) => {
             </figure>
           </a>
           <a
+            href={require("../img/Thor.jpg")}
+            target="_blank"
+            className="gallery__link"
+          >
+            <figure className="gallery__thumb">
+              <img
+                src={require("../img/Thor.jpg")}
+                alt=" "
+                className="gallery__image"
+              />
+              {/* <figcaption className="gallery__caption">
+                 
+              </figcaption> */}
+            </figure>
+          </a>
+          <a
             href={require("../img/captainYoda.png")}
             target="_blank"
             className="gallery__link"
