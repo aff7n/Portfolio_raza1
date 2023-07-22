@@ -4,14 +4,16 @@ $medium: 768px;
 $large: 992px;
 $xlarge: 1200px;
 
+// Old gallery
+.display-6 {
+  margin-top: 30px;
+}
+
 .films {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 20px;
-  flex-direction: column;
-  // margin: 0px;
-  padding: 2px;
+  // padding: 2px;
   transition: 0.3s;
 
   &:hover &__image {
@@ -23,16 +25,22 @@ $xlarge: 1200px;
     // grid-template-columns: repeat(2, 1fr);
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    width: 90%;
-  }
-
-  &__linkOdd {
+    justify-content: space-evenly;
     width: 70%;
+
+    @media screen and (max-width: $large) {
+      // width: 90%;
+    }
+
+    @media screen and (max-width: $medium) {
+      // width: 90%;
+      flex-direction: column;
+    }
   }
 
   &__link {
-    margin: 10px;
+    // margin: 10px;
+    border-radius: 30px;
     overflow: hidden;
 
     &:hover {
@@ -52,9 +60,14 @@ $xlarge: 1200px;
 
   &__image {
     display: block;
-    // width: 50%;
-    height: 450px;
+    width: 100%;
+    object-fit: cover;
+    height: 360px;
     transition: 0.3s;
+
+    @media screen and (max-width: $xlarge) {
+      height: 280px;
+    }
 
     &:hover {
       transform: scale(1.1);
@@ -84,5 +97,9 @@ $xlarge: 1200px;
     //   rgba(255, 255, 255, 0) 100%
     // );
     transition: 0.3s;
+
+    @media screen and (max-width: $medium) {
+      opacity: 1;
+    }
   }
 }

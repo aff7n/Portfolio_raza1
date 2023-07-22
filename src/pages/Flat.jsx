@@ -1,4 +1,6 @@
 import React from "react";
+import { ReactDOM } from "react-dom";
+import $ from "jquery";
 import Nav from "../components/Nav";
 import Landing from "../components/Landing";
 

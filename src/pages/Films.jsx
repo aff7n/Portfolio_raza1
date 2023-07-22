@@ -5,7 +5,6 @@ import Landing from "../components/Landing";
 const Films = (props) => {
   return (
     <div className="collection">
-      {/* <img className="bg-img" src={require("../img/bumbly.jpeg")} alt="" /> */}
       <Nav />
       <div
         class="jumbotron jumbotron-fluid bg-image"
@@ -16,7 +15,7 @@ const Films = (props) => {
           /* style={{ backgroundColor: "rgba(0, 0, 0, 0.5)" }} */
         >
           <h1
-            class="display-1 text-uppercase fw-bold text-center"
+            class="display-6 text-uppercase fw-bold text-center"
             style={{
               fontFamily: "Space Mono",
               letterSpacing: "4px",
