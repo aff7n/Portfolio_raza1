@@ -1,3 +1,10 @@
+$font-family_1: "Noto sans", sans-serif;
+$font-family_2: "Raleway", sans-serif;
+$font-family_3: "Open sans", sans-serif;
+$font-family_4: "Inter", sans-serif;
+$font-family_5: "Space Mono", sans-serif;
+$font-family_6: "Source Code Pro", sans-serif;
+$font-family_7: "Fugaz One", sans-serif;
 $xsmall: 320px;
 $small: 480px;
 $medium: 768px;
@@ -15,7 +22,6 @@ $xlarge: 1200px;
   transition: 0.3s;
 
   &:hover &__image {
-    // filter: grayscale(1);
   }
 
   &__column {
@@ -36,7 +42,6 @@ $xlarge: 1200px;
 
     &:hover {
       .reels__image {
-        filter: grayscale(0);
       }
 
       .reels__caption {
@@ -63,24 +68,15 @@ $xlarge: 1200px;
     position: absolute;
     top: 40%;
     left: 0;
-    // padding-top: 25px;
-    // // padding-bottom: 15px;
-    // padding-right: 15px;
-    // padding-left: 15px;
-    // padding: 25px 15px 15px;
-    // display: inline-block;
     width: 100%;
-    font-family: "Raleway", sans-serif;
+    font-family: $font-family_7;
+    text-shadow: 0.1em 0.1em 0 hsl(200 50% 30%);
     font-size: 45px;
+    font-weight: 900;
     text-align: center;
     text-transform: uppercase;
-    color: white;
+    color: hsl(200 50% 90%);
     opacity: 0;
-    // background: linear-gradient(
-    //   0deg,
-    //   rgba(0, 0, 0, 0.5) 0%,
-    //   rgba(255, 255, 255, 0) 100%
-    // );
     transition: 0.3s;
   }
 }

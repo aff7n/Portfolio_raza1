@@ -50,7 +50,7 @@ const Hero = (props) => {
                       src={require("../img/Showreel_2.png")}
                       alt="demo reels"
                     />
-                    <figcaption className="hoverable">Demo reels</figcaption>
+                    <figcaption className="hoverable">Showreels</figcaption>
                   </figure>
                 </Link>
 

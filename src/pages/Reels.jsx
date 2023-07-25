@@ -40,22 +40,28 @@ const Reels = (props) => {
                 alt=""
                 className="reels__image"
               />
-              <figcaption className="reels__caption">The Crypt</figcaption>
+              <figcaption className="reels__caption">
+                The Crypt
+                <br />
+                Showreel
+              </figcaption>
             </figure>
           </a>
           {/* Not for any use rn */}
-          {/* <a href="#" target="_blank" className="reels__link">
+          <a
+            href="https://drive.google.com/file/d/1xAznt_Nk-6KRXS8gKii1quz2lSkQmAt9/view?usp=sharing"
+            target="_blank"
+            className="reels__link"
+          >
             <figure className="reels__thumb">
               <img
-                src={require("../img/TheCrypt.jpg")}
-                alt="Portrait by Oladimeji Odunsi"
+                src={require("../img/S.png")}
+                alt=""
                 className="reels__image"
               />
-              <figcaption className="reels__caption">
-                Portrait by Oladimeji Odunsi
-              </figcaption>
+              <figcaption className="reels__caption">Showreel mix</figcaption>
             </figure>
-          </a> */}
+          </a>
         </div>
         {/* <a href="#" target="_blank" className="reels__linkOdd reels__link">
           <figure className="reels__thumb">

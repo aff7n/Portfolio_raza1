@@ -9,6 +9,26 @@ const Flat = (props) => {
     <div className="collection">
       {/* <img className="bg-img" src={require("../img/bumbly.jpeg")} alt="" /> */}
       <Nav />
+      <div
+        class="jumbotron jumbotron-fluid bg-image"
+        style={{ background: "none", height: "0" }}
+      >
+        <div
+          class="dsgn d-flex flex-column justify-content-center align-items-center mask"
+          /* style={{ backgroundColor: "rgba(0, 0, 0, 0.5)" }} */
+        >
+          <h1
+            class="display-1 text-uppercase fw-bold text-center"
+            style={{
+              fontFamily: "Space Mono",
+              letterSpacing: "4px",
+              zIndex: "1",
+            }}
+          >
+            2D Art
+          </h1>
+        </div>
+      </div>
       <div className="gallery">
         <div className="gallery__column">
           <a
@@ -60,13 +80,13 @@ const Flat = (props) => {
             </figure>
           </a>
           <a
-            href={require("../img/Tiggi.jpg")}
+            href={require("../img/sideProfile.jpg")}
             target="_blank"
             className="gallery__link"
           >
             <figure className="gallery__thumb">
               <img
-                src={require("../img/Tiggi.jpg")}
+                src={require("../img/sideProfile.jpg")}
                 alt=" "
                 className="gallery__image"
               />
@@ -176,13 +196,13 @@ const Flat = (props) => {
         </div>
         <div className="gallery__column">
           <a
-            href={require("../img/PRIME.png")}
+            href={require("../img/fierce.jpg")}
             target="_blank"
             className="gallery__link"
           >
             <figure className="gallery__thumb">
               <img
-                src={require("../img/PRIME.png")}
+                src={require("../img/fierce.jpg")}
                 alt=" "
                 className="gallery__image"
               />
@@ -247,6 +267,22 @@ const Flat = (props) => {
             <figure className="gallery__thumb">
               <img
                 src={require("../img/raju.jpeg")}
+                alt=" "
+                className="gallery__image"
+              />
+              {/* <figcaption className="gallery__caption">
+                 
+              </figcaption> */}
+            </figure>
+          </a>
+          <a
+            href={require("../img/PRIME.png")}
+            target="_blank"
+            className="gallery__link"
+          >
+            <figure className="gallery__thumb">
+              <img
+                src={require("../img/PRIME.png")}
                 alt=" "
                 className="gallery__image"
               />
@@ -361,6 +397,88 @@ const Flat = (props) => {
             <figure className="gallery__thumb">
               <img
                 src={require("../img/Sup.jpeg")}
+                alt=" "
+                className="gallery__image"
+              />
+              {/* <figcaption className="gallery__caption">
+                 
+              </figcaption> */}
+            </figure>
+          </a>
+        </div>
+        <div className="gallery__column">
+          <a
+            href={require("../img/king.jpg")}
+            target="_blank"
+            className="gallery__link"
+          >
+            <figure className="gallery__thumb">
+              <img
+                src={require("../img/king.jpg")}
+                alt=" "
+                className="gallery__image"
+              />
+              {/* <figcaption className="gallery__caption">
+                 
+              </figcaption> */}
+            </figure>
+          </a>
+          <a
+            href={require("../img/wolverine.jpg")}
+            target="_blank"
+            className="gallery__link"
+          >
+            <figure className="gallery__thumb">
+              <img
+                src={require("../img/wolverine.jpg")}
+                alt=" "
+                className="gallery__image"
+              />
+              {/* <figcaption className="gallery__caption">
+                 
+              </figcaption> */}
+            </figure>
+          </a>
+          <a
+            href={require("../img/sagat.jpg")}
+            target="_blank"
+            className="gallery__link"
+          >
+            <figure className="gallery__thumb">
+              <img
+                src={require("../img/sagat.jpg")}
+                alt=" "
+                className="gallery__image"
+              />
+              {/* <figcaption className="gallery__caption">
+                 
+              </figcaption> */}
+            </figure>
+          </a>
+          <a
+            href={require("../img/gorilla.jpg")}
+            target="_blank"
+            className="gallery__link"
+          >
+            <figure className="gallery__thumb">
+              <img
+                src={require("../img/gorilla.jpg")}
+                alt=" "
+                className="gallery__image"
+              />
+              {/* <figcaption className="gallery__caption">
+                 
+              </figcaption> */}
+            </figure>
+          </a>
+          <a
+            href={require("../img/bison.jpg")}
+            target="_blank"
+            className="gallery__link"
+          >
+            <figure className="gallery__thumb">
+              <img
+                src={require("../img/bison.jpg")}
                 alt=" "
                 className="gallery__image"
               />

@@ -43,9 +43,9 @@ const Nav = (props) => {
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link hover" href="#">
-                  Contact
-                </a>
+                <Link to={"/About"} className="nav-link hover">
+                  About
+                </Link>
               </li>
               <li className="nav-item">
                 <a
