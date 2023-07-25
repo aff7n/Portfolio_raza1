@@ -43,6 +43,7 @@ $xlarge: 1200px;
   @media screen and (max-width: $small) {
     // flex-direction: column;
     gap: 3rem;
+    align-items: start;
   }
 
   @media screen and (max-width: $xsmall) {
