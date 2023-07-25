@@ -22,7 +22,7 @@ $xlarge: 1200px;
   justify-content: center;
   font-family: $font-family_3;
   color: $white;
-  margin-top: 25px;
+  margin-top: 60px;
 }
 
 .contact-box {
@@ -69,8 +69,16 @@ $xlarge: 1200px;
   gap: 1rem;
   flex-direction: column;
 
-  @media screen and (max-width: $small) {
+  @media screen and (max-width: $large) {
     width: 40vw;
+  }
+
+  @media screen and (max-width: $medium) {
+    width: 50vw;
+  }
+
+  @media screen and (max-width: $small) {
+    width: 70vw;
   }
 
   @media screen and (max-width: $xsmall) {
@@ -114,13 +122,24 @@ $xlarge: 1200px;
   }
 }
 
-@media screen and (max-width: $small) {
+@media screen and (max-width: $medium) {
   .right h1 {
-    font-size: 1.5rem;
+    font-size: 2rem;
   }
 
   .right h2 {
-    font-size: 1.3rem;
+    font-size: 1.7rem;
+    margin-top: -5px;
+  }
+}
+
+@media screen and (max-width: $small) {
+  .right h1 {
+    font-size: 1.8rem;
+  }
+
+  .right h2 {
+    font-size: 1.5rem;
     margin-top: -5px;
   }
 }
@@ -149,6 +168,14 @@ $xlarge: 1200px;
 
 .right span {
   border-bottom: 2px dashed $off-white;
+
+  @media screen and (max-width: $large) {
+    max-width: 75%;
+  }
+
+  @media screen and (max-width: $xsmall) {
+    max-width: 100%;
+  }
 }
 
 .form,
@@ -168,6 +195,10 @@ textarea {
   padding: 10px 0;
   margin: 5px 0;
   color: $white;
+
+  @media screen and (max-width: $medium) {
+    width: 80%;
+  }
 
   @media screen and (max-width: $xsmall) {
     font-size: 0.9rem;

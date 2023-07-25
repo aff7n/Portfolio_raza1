@@ -7,7 +7,7 @@ const About = (props) => {
       <Nav />
       <div class="container-contact">
         <div class="contact-box">
-          <div class="left">
+          {/* <div class="left">
             <img src={require("../img/raza.jpeg")} />
             <p className="lead">
               Specializing in 3D Character Art, I combine technical prowess with
@@ -17,11 +17,9 @@ const About = (props) => {
               animation. My portfolio showcases a diverse range of meticulously
               crafted characters, each telling a unique story.
             </p>
-          </div>
+          </div> */}
           <div class="right">
-            <h1 className="display-6 mt-0">
-              Let's chat. <br /> Tell me about your project
-            </h1>
+            <h1 className="display-6 mt-0">Tell me about your project</h1>
             <span />
             <div class="contact">
               <div class="form-container">
