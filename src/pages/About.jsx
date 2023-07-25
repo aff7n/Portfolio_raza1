@@ -10,24 +10,23 @@ const About = (props) => {
           <div class="left">
             <img src={require("../img/raza.jpeg")} />
             <p className="lead">
-              Hey there! I'm a skilled 3D Character Artist, driven by a passion
-              for creating lifelike, compelling characters that resonate with
-              audiences. With an acute eye for detail and proficiency in
-              industry-standard software like ZBrush, Maya, and Blender, I
-              transform concepts into fully realized 3D models. Each project I
-              undertake is a new opportunity to push the boundaries of digital
-              art, and I look forward to sharing my work with you. Welcome to my
-              portfolio!
+              Specializing in 3D Character Art, I combine technical prowess with
+              creative imagination to create detailed and captivating
+              characters. Proficient in sculpting, texturing, and rigging. Adept
+              at creating captivating and diverse characters for films and
+              animation. My portfolio showcases a diverse range of meticulously
+              crafted characters, each telling a unique story.
             </p>
           </div>
           <div class="right">
-            <h2 className="display-6">
+            <h1 className="display-6 mt-0">
               Let's chat. <br /> Tell me about your project
-            </h2>
-            <h2 className="display-7">Contact Me</h2>
+            </h1>
+            <span />
             <div class="contact">
               <div class="form-container">
                 <form class="form">
+                  <h2 className="display-7">Contact Me</h2>
                   <div class="username">
                     <input type="text" placeholder="Enter your Name" />
                   </div>

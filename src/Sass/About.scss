@@ -1,0 +1,218 @@
+$black: #000;
+$black_2: #303030;
+$white: #fff;
+$orange: #ff9933;
+$off-white: #faf9f6;
+$font-family_1: "Noto sans", sans-serif;
+$font-family_2: "Raleway", sans-serif;
+$font-family_3: "Open sans", sans-serif;
+$font-family_4: "Inter", sans-serif;
+$font-family_5: "Space Mono", sans-serif;
+$font-family_6: "Source Code Pro", sans-serif;
+$background-grey: #eeeeee;
+$xsmall: 320px;
+$small: 480px;
+$medium: 768px;
+$large: 992px;
+$xlarge: 1200px;
+
+.container-contact {
+  display: flex;
+  // align-items: center;
+  justify-content: center;
+  font-family: $font-family_3;
+  color: $white;
+  margin-top: 25px;
+}
+
+.contact-box {
+  // background-color: #ddd;
+  padding: 1rem;
+  border-radius: 5px;
+  // border: 1px solid #bbb;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 5rem;
+
+  @media screen and (max-width: $small) {
+    align-items: start;
+  }
+
+  @media screen and (max-width: $xsmall) {
+    gap: 2rem;
+    flex-direction: column;
+  }
+}
+
+.left {
+  width: 25vw;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  gap: 1rem;
+
+  @media screen and (max-width: $large) {
+    width: 30vw;
+  }
+
+  @media screen and (max-width: $xsmall) {
+    width: 50vw;
+  }
+}
+
+.right {
+  width: 25vw;
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+
+  @media screen and (max-width: $small) {
+    width: 40vw;
+  }
+
+  @media screen and (max-width: $xsmall) {
+    width: 50vw;
+    text-align: center;
+  }
+}
+
+.lead {
+  font-family: $font-family_4;
+  text-align: justify;
+  font-size: 1.1rem;
+
+  @media screen and (max-width: $xlarge) {
+    // display: none;
+    // font-size: 0.9rem;
+  }
+
+  @media screen and (max-width: $medium) {
+    font-size: 0.9rem;
+  }
+
+  @media screen and (max-width: $small) {
+    display: none;
+  }
+}
+
+.left img {
+  width: inherit;
+  height: 23rem;
+  border-radius: 10px;
+  object-fit: cover;
+  // transform: scale(2.3);
+
+  @media screen and (max-width: $medium) {
+    height: 15rem;
+  }
+
+  @media screen and (max-width: $xsmall) {
+    height: 12rem;
+  }
+}
+
+@media screen and (max-width: $small) {
+  .right h1 {
+    font-size: 1.5rem;
+  }
+
+  .right h2 {
+    font-size: 1.3rem;
+    margin-top: -5px;
+  }
+}
+
+@media screen and (max-width: $xsmall) {
+  .right h1 {
+    font-size: 1.8rem;
+    // margin: 0;
+  }
+
+  .right h2 {
+    font-size: 1.5rem;
+    margin-top: -10px;
+  }
+}
+
+.right .contact {
+  // display: flex;
+  gap: 1rem;
+  margin-right: 1rem;
+
+  @media screen and (max-width: $xsmall) {
+    margin-right: 0;
+  }
+}
+
+.right span {
+  border-bottom: 2px dashed $off-white;
+}
+
+.form,
+.address {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 0 0;
+}
+
+.form input,
+textarea {
+  width: 100%;
+  outline: none;
+  background: none;
+  border: none;
+  border-bottom: 2px solid $off-white;
+  padding: 10px 0;
+  margin: 5px 0;
+  color: $white;
+
+  @media screen and (max-width: $xsmall) {
+    font-size: 0.9rem;
+  }
+}
+
+.usersubmit input {
+  background-color: blueviolet;
+  color: white;
+  font-weight: bold;
+  border-radius: 15px;
+  border: none;
+  width: min-content;
+  padding: 15px;
+  margin-bottom: 0;
+  cursor: pointer;
+  transition: 0.3s;
+
+  @media screen and (max-width: $xsmall) {
+    padding: 10px;
+  }
+}
+
+.usersubmit input:hover {
+  background-color: #f45;
+}
+
+// @media screen and (max-width: 700px) {
+//   .card {
+//     flex-direction: column;
+//   }
+
+//   .left {
+//     width: 60vw;
+//     height: 40vh;
+//   }
+// }
+
+// @media screen and (max-width: 350px) {
+//   .container {
+//     overflow: hidden;
+//   }
+//   .left {
+//     height: 20vh;
+//   }
+//   .contact {
+//     flex-direction: column;
+//   }
+// }
