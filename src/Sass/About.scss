@@ -38,6 +38,7 @@ $xlarge: 1200px;
 
   @media screen and (max-width: $small) {
     align-items: start;
+    gap: 3rem;
   }
 
   @media screen and (max-width: $xsmall) {
