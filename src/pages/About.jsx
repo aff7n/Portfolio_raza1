@@ -5,10 +5,12 @@ const About = (props) => {
   return (
     <>
       <Nav />
-      <div class="container-contact">
-        <div class="contact-box">
-          {/* <div class="left">
+      <div class="container-about">
+        <div class="about-box">
+          <div class="about-img">
             <img src={require("../img/raza.jpeg")} />
+          </div>
+          <div class="about-text">
             <p className="lead">
               Specializing in 3D Character Art, I combine technical prowess with
               creative imagination to create detailed and captivating
@@ -17,55 +19,6 @@ const About = (props) => {
               animation. My portfolio showcases a diverse range of meticulously
               crafted characters, each telling a unique story.
             </p>
-          </div> */}
-          <div class="right">
-            <h1 className="display-6 mt-0">Tell me about your project</h1>
-            <span />
-            <div class="contact">
-              <div class="form-container">
-                <form class="form">
-                  <h2 className="display-7">Contact Me</h2>
-                  <div class="username">
-                    <input type="text" placeholder="Enter your Name" />
-                  </div>
-                  <div class="useremail">
-                    <input
-                      type="email"
-                      placeholder="Enter your email"
-                      required
-                    />
-                  </div>
-                  <div class="usermessage">
-                    <textarea
-                      placeholder="Enter your message"
-                      required
-                    ></textarea>
-                  </div>
-                  <div class="usersubmit">
-                    <input type="submit" value="Contact Us" />
-                  </div>
-                </form>
-              </div>
-              <div class="address">
-                {/* <div class="social">
-                  <span>
-                    <a href="#">
-                      <i class="fab fa-facebook"></i>
-                    </a>
-                  </span>
-                  <span>
-                    <a href="#" target="_blank">
-                      <i class="fab fa-instagram"></i>
-                    </a>
-                  </span>
-                  <span>
-                    <a href="#" target="_blank">
-                      <i class="fab fa-twitter"></i>
-                    </a>
-                  </span>
-                </div> */}
-              </div>
-            </div>
           </div>
         </div>
       </div>

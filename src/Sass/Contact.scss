@@ -16,20 +16,16 @@ $medium: 768px;
 $large: 992px;
 $xlarge: 1200px;
 
-.container-about {
+.container-contact {
   display: flex;
   // align-items: center;
   justify-content: center;
   font-family: $font-family_3;
   color: $white;
   margin-top: 60px;
-
-  @media screen and (max-width: $xsmall) {
-    margin-top: 10px;
-  }
 }
 
-.about-box {
+.contact-box {
   // background-color: #ddd;
   padding: 1rem;
   border-radius: 5px;
@@ -41,106 +37,117 @@ $xlarge: 1200px;
   gap: 5rem;
 
   @media screen and (max-width: $small) {
-    // flex-direction: column;
+    align-items: start;
     gap: 3rem;
   }
 
   @media screen and (max-width: $xsmall) {
     gap: 2rem;
-    align-items: start;
-    // flex-direction: column;
+    flex-direction: column;
   }
 }
 
-.about-img {
+// .left {
+//   width: 25vw;
+//   display: flex;
+//   flex-direction: column;
+//   overflow: hidden;
+//   gap: 1rem;
+
+//   @media screen and (max-width: $large) {
+//     width: 30vw;
+//   }
+
+//   @media screen and (max-width: $xsmall) {
+//     width: 50vw;
+//   }
+// }
+
+.right {
   width: 25vw;
   display: flex;
-  flex-direction: column;
-  overflow: hidden;
   gap: 1rem;
+  flex-direction: column;
 
   @media screen and (max-width: $large) {
-    width: 30vw;
+    width: 40vw;
+  }
+
+  @media screen and (max-width: $medium) {
+    width: 50vw;
   }
 
   @media screen and (max-width: $small) {
-    width: 40vw;
+    width: 70vw;
   }
 
   @media screen and (max-width: $xsmall) {
-    width: 40vw;
+    width: 50vw;
+    text-align: center;
   }
 }
 
-.about-text {
-  width: 40vw;
+// .left img {
+//   width: inherit;
+//   height: 23rem;
+//   border-radius: 10px;
+//   object-fit: cover;
+//   // transform: scale(2.3);
+
+//   @media screen and (max-width: $medium) {
+//     height: 15rem;
+//   }
+
+//   @media screen and (max-width: $xsmall) {
+//     height: 12rem;
+//   }
+// }
+
+@media screen and (max-width: $medium) {
+  .right h1 {
+    font-size: 2rem;
+  }
+
+  .right h2 {
+    font-size: 1.7rem;
+    margin-top: -5px;
+  }
 }
 
-.lead {
-  font-family: $font-family_4;
-  text-align: start;
-  font-size: 1.8rem;
+@media screen and (max-width: $small) {
+  .right h1 {
+    font-size: 1.8rem;
+  }
 
-  @media screen and (max-width: $xlarge) {
+  .right h2 {
     font-size: 1.5rem;
-  }
-
-  @media screen and (max-width: $large) {
-    font-size: 1.4rem;
-  }
-
-  @media screen and (max-width: $medium) {
-    font-size: 1.15rem;
-  }
-
-  @media screen and (max-width: $small) {
-    font-size: 1rem;
-  }
-
-  @media screen and (max-width: $xsmall) {
-    font-size: 0.95rem;
+    margin-top: -5px;
   }
 }
 
-.about-img img {
-  width: inherit;
-  height: 33rem;
-  border-radius: 10px;
-  object-fit: cover;
-  // transform: scale(2.3);
-
-  @media screen and (max-width: $xlarge) {
-    height: 25rem;
+@media screen and (max-width: $xsmall) {
+  .right h1 {
+    font-size: 1.8rem;
+    // margin: 0;
   }
 
-  @media screen and (max-width: $large) {
-    height: 22rem;
-  }
-
-  @media screen and (max-width: $medium) {
-    height: 18rem;
-  }
-
-  @media screen and (max-width: $small) {
-    height: 16rem;
-  }
-
-  @media screen and (max-width: $xsmall) {
-    height: 12rem;
+  .right h2 {
+    font-size: 1.5rem;
+    margin-top: -10px;
   }
 }
 
-.about-text .contact {
+.right .contact {
   // display: flex;
   gap: 1rem;
-  margin-about-text: 1rem;
+  margin-right: 1rem;
 
   @media screen and (max-width: $xsmall) {
-    margin-about-text: 0;
+    margin-right: 0;
   }
 }
 
-.about-text span {
+.right span {
   border-bottom: 2px dashed $off-white;
 
   @media screen and (max-width: $large) {
@@ -205,7 +212,7 @@ textarea {
 //     flex-direction: column;
 //   }
 
-//   .about-img {
+//   .left {
 //     width: 60vw;
 //     height: 40vh;
 //   }
@@ -215,7 +222,7 @@ textarea {
 //   .container {
 //     overflow: hidden;
 //   }
-//   .about-img {
+//   .left {
 //     height: 20vh;
 //   }
 //   .contact {
